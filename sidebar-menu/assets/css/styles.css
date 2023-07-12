@@ -12,13 +12,13 @@
   --dark-color-light: hsla(210, 4%, 4%, .1);
   --white-color-light: hsla(210, 4%, 99%, .1);
   --gradient-x: linear-gradient(90deg,
-              hsla(0, 0%, 0%, 0),
-              hsl(210, 4%, 64%),
-              hsla(0, 0%, 0%, 0));
+      hsla(0, 0%, 0%, 0),
+      hsl(210, 4%, 64%),
+      hsla(0, 0%, 0%, 0));
   --gradient-y: linear-gradient(0,
-              hsla(0, 0%, 0%, 0),
-              hsl(210, 4%, 64%),
-              hsla(0, 0%, 0%, 0));
+      hsla(0, 0%, 0%, 0),
+      hsl(210, 4%, 64%),
+      hsla(0, 0%, 0%, 0));
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -87,7 +87,43 @@ img {
 }
 
 /*=============== HEADER ===============*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--dark-color-light);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  z-index: var(--z-fixed);
+}
 
+.header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--gradient-x);
+}
+
+.header__container {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__toggle {
+  font-size: 1.25rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.header__logo {
+  width: 70px;
+}
 
 /*=============== SIDEBAR ===============*/
 
