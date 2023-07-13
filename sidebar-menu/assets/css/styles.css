@@ -294,7 +294,15 @@ img {
 }
 
 /* Active link */
+.active-link {
+  background-color: var(--white-color-light);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
 
+.active-link span {
+  color: var(--white-color);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
