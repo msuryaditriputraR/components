@@ -403,4 +403,28 @@ img {
     transition: color .4s, opacity .4s;
     opacity: 0;
   }
+
+  /* Reduce Sidebar */
+  .show-sidebar {
+    width: 120px;
+  }
+
+  .show-sidebar .sidebar__logo {
+    padding-left: 1rem;
+  }
+
+  .show-sidebar .sidebar__logo-text,
+  .show-sidebar .sidebar__link-name {
+    opacity: 0;
+  }
+
+  .show-sidebar .sidebar__title span {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .show-sidebar .sidebar__link:hover .sidebar__link-floating {
+    opacity: 1;
+    color: var(--white-color);
+  }
 }
