@@ -404,6 +404,12 @@ img {
     opacity: 0;
   }
 
+  .main {
+    padding-left: 300px;
+    padding-top: 6rem;
+    transition: padding .4s;
+  }
+
   /* Reduce Sidebar */
   .show-sidebar {
     width: 120px;
