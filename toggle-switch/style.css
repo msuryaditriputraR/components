@@ -6,3 +6,15 @@
   --inactive-color: hsl(234, 20%, 68%);
   --body-color: hsl(234, 12%, 8%)
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background-color: var(--body-color);
+}
