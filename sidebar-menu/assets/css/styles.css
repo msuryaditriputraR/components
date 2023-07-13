@@ -434,6 +434,10 @@ img {
     color: var(--white-color);
   }
 
+  .show-sidebar .main {
+    padding-left: 300px;
+  }
+
   /* Add Padding Main */
   .main-pd {
     padding-left: 120px;
