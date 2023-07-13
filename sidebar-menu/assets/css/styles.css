@@ -433,4 +433,9 @@ img {
     opacity: 1;
     color: var(--white-color);
   }
+
+  /* Add Padding Main */
+  .main-pd {
+    padding-left: 120px;
+  }
 }
