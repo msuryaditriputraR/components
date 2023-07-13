@@ -391,4 +391,16 @@ img {
     transition: opacity .4s;
   }
 
+  .sidebar__link-floating {
+    display: block;
+    font-size: 10px;
+    width: max-content;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4px;
+    transition: color .4s, opacity .4s;
+    opacity: 0;
+  }
 }
