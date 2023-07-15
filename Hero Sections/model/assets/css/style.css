@@ -85,3 +85,72 @@ img {
   z-index: var(--z-modal);
   background-color: var(--first-color);
 }
+
+/* ==================== NAV ===================== */
+.nav {
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: var(--white-color);
+    width: 85%;
+    height: 100vh;
+    padding: .75rem;
+    z-index: var(--z-modal);
+    font-weight: 900;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+}
+
+.nav__close {
+  text-align: right;
+}
+
+.nav__close-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav__list {
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.nav__item {
+  margin-bottom: 2.5rem;
+}
+
+.nav__link {
+  padding: .5rem;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  color: #575757;
+}
+
+.nav__logo {
+  font-size: var(--normal-font-size);
+  font-weight: 900;
+  color: var(--text-color);
+}
+
+.nav__toggle {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
