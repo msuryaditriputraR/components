@@ -69,3 +69,19 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* ==================== LAYOUT ===================== */
+.bd-grid {
+  max-width: 1200px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-modal);
+  background-color: var(--first-color);
+}
