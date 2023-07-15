@@ -1,2 +1,13 @@
 /* ==================== GOOGLE FONT ===================== */
 @import url("https://fonts.googleapis.com/css?family=Raleway:700,900&display=swap");
+
+/* ==================== CSS VARIABLES ===================== */
+:root {
+  /* COLORS */
+  --first-color: #D8DBE2;
+  --second-color: #F2BF25;
+  --text-color: #000;
+  --white-color: #FFF;
+
+
+}
