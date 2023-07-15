@@ -24,7 +24,7 @@
   --z-modal: 1000;
 }
 
-/* ==================== RESPONSIVE VARIABLEs ===================== */
+/* ==================== RESPONSIVE VARIABLES ===================== */
 @media screen and (min-width: 768px) {
   :root {
     --h2-font-size: 2rem;
@@ -32,4 +32,40 @@
     --normal-font-size: 1rem;
     --smaller-font-size: 0.813rem;
   }
+}
+
+/* ==================== BASE ===================== */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3rem 0 0 0;
+  font-family: var(--body-font);
+  background-color: var(--first-color);
+  color: var(--text-color);
+  font-weight: 700;
+  overflow: hidden;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
