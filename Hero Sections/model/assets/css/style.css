@@ -9,5 +9,10 @@
   --text-color: #000;
   --white-color: #FFF;
 
-
+  /* FONT & TYPOGRAPHY */
+  --body-font: 'Raleway', sans-serif;
+  --h2-font-size: 1.25rem;
+  --big-font-size: 3rem;
+  --normal-font-size: 0.93rem;
+  --smaller-font-size: 0.75rem;
 }
