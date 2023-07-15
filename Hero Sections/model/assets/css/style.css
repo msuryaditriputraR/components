@@ -154,3 +154,12 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+/* TOGGLE MENU */
+.show {
+  right: -5%;
+}
+
+.hidden {
+  right: -100%;
+}
