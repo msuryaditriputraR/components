@@ -238,3 +238,67 @@ img {
 .home__button-icon {
   padding-left: 4.25rem;
 }
+
+/* ==================== BREAKPOINTS ===================== */
+
+/* MEDIUM DEVICE */
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .l-main {
+    height: 100vh;
+  }
+
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0;
+  }
+
+  .nav__item {
+    margin-left: 3rem;
+    margin-bottom: 0;
+  }
+
+  .nav__toggle,
+  .nav__close {
+    display: none;
+  }
+
+  .nav__link {
+    text-transform: initial;
+  }
+
+  .home {
+    -ms-grid-columns: 4fr 1fr;
+    grid-template-columns: 4fr 1fr;
+  }
+
+  .home__title {
+    top: 16%;
+    left: 23%;
+  }
+
+  .home__img {
+    width: 359px;
+    height: 539px;
+    top: 18%;
+    left: 43%;
+  }
+
+  .home__social {
+    padding-top: 5rem;
+  }
+
+  .home__social-link {
+    padding-bottom: 3rem;
+  }
+
+  .home__subtitle {
+    padding-top: 18rem;
+    padding-right: 8rem;
+  }
+}
