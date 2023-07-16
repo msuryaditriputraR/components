@@ -5,5 +5,11 @@
 :root {
   --header-height: 3.5rem;
 
+  /*===== Colors =====*/
+  --first-color: #A29596;
+  --primary: #A29596;
+  --second-color: #33303D;
+  --black-color: #111111;
+  --white-color: #FFF;
 
 }
