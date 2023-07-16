@@ -27,23 +27,26 @@ function move(e) {
 }
 
 /*===== GSAP ANIMATION =====*/
-// NAV
-gsap.from(".nav__logo, .nav__toggle", {
+const defaultAnimation = {
     opacity: 0,
     duration: 1,
+    y: 30,
+};
+
+// NAV
+gsap.from(".nav__logo, .nav__toggle", {
+    ...defaultAnimation,
     delay: 2,
     y: 10,
 });
 gsap.from(".nav__item", {
-    opacity: 0,
-    duration: 1,
+    ...defaultAnimation,
     delay: 2.1,
-    y: 30,
     stagger: 0.2,
 });
 
 // HOME
-gsap.from(".home__title", { opacity: 0, duration: 1, delay: 1.6, y: 30 });
-gsap.from(".home__description", { opacity: 0, duration: 1, delay: 1.8, y: 30 });
-gsap.from(".home__button", { opacity: 0, duration: 1, delay: 2.1, y: 30 });
-gsap.from(".home__img", { opacity: 0, duration: 1, delay: 1.3, y: 30 });
+gsap.from(".home__title", { ...defaultAnimation, delay: 1.6 });
+gsap.from(".home__description", { ...defaultAnimation, delay: 1.8 });
+gsap.from(".home__button", { ...defaultAnimation, delay: 2.1 });
+gsap.from(".home__img", { ...defaultAnimation, delay: 1.3 });
