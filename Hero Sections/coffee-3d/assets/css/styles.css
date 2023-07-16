@@ -234,3 +234,25 @@ img {
     width: 375px;
   }
 }
+
+/* LARGE DEVICE */
+@media screen and (min-width: 1024px) {
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home__container {
+    justify-content: initial;
+    column-gap: 4.5rem;
+  }
+
+  .home__img {
+    width: 604px;
+    height: 466px;
+  }
+
+  .home__img img {
+    width: 604px;
+  }
+}
