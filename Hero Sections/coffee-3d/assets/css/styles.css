@@ -167,6 +167,11 @@ img {
   color: var(--white-color);
 }
 
+.home__title,
+.home__description {
+  cursor: default;
+}
+
 .home__title {
   font-size: var(--big-font-size);
   line-height: 1.3;
