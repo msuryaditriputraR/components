@@ -249,3 +249,21 @@ a {
   background-color: var(--primary);
   color: var(--white-color);
 }
+
+/*===== Qty =====*/
+.quantity__title {
+  font-size: var(--normal-font-size);
+  margin-bottom: 1rem;
+}
+
+.quantity__content {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--white-color);
+  padding: .5rem;
+  border-radius: .25rem;
+}
