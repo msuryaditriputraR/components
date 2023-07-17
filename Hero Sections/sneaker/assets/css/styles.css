@@ -223,3 +223,29 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+/*===== Size =====*/
+.size__title {
+  font-size: var(--normal-font-size);
+  margin-bottom: 1rem;
+}
+
+.size__content {
+  display: flex;
+}
+
+.size__tallas {
+  width: 30px;
+  height: 30px;
+  margin-right: .5rem;
+  font-size: var(--smaller-font-size);
+  text-align: center;
+  line-height: 30px;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+
+.size__tallas.active {
+  background-color: var(--primary);
+  color: var(--white-color);
+}
