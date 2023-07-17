@@ -331,3 +331,42 @@ a {
     width: 350px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .home {
+    grid-template-columns: repeat(2, max-content);
+    align-content: center;
+    justify-content: center;
+    column-gap: 6rem;
+    row-gap: 0;
+  }
+
+  .sneaker {
+    margin-top: 0;
+  }
+
+  .sneaker__colors {
+    right: -10%;
+  }
+
+  .sneaker__img {
+    left: -6%;
+  }
+
+  .actions {
+    margin-bottom: 3rem;
+  }
+
+  .price {
+    position: initial;
+    background-color: initial;
+    justify-content: space-between;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .price__title {
+    color: var(--black-color);
+    font-weight: var(--font-medium);
+  }
+}
