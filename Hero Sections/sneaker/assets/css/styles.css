@@ -124,3 +124,8 @@ a {
 .nav__toggle {
   cursor: pointer;
 }
+
+/* Show menu */
+.show {
+  left: 0;
+}
