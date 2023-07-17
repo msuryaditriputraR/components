@@ -324,3 +324,10 @@ a {
     padding: 1.25rem 2rem;
   }
 }
+
+/* For medium devices */
+@media screen and (min-width: 480px) {
+  .data__description {
+    width: 350px;
+  }
+}
