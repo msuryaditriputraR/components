@@ -132,11 +132,12 @@ a {
 
 /*===== HOME =====*/
 .home {
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   row-gap: 3.5rem;
   grid-template-rows: repeat(2, max-content);
   overflow: hidden;
+  padding-bottom: 8.5rem;
 }
 
 /*===== Sneaker =====*/
@@ -384,6 +385,10 @@ a {
 
   .nav__toggle {
     display: none;
+  }
+
+  .home {
+    padding-bottom: 0;
   }
 
   .sneaker {
