@@ -331,4 +331,24 @@ img {
   }
 }
 
+@media screen and (min-width: 767px) {
+  .home {
+    display: grid;
+    place-content: center;
+  }
+
+  .home__container {
+    grid-template-columns: repeat(2, 350px);
+    padding-top: 0;
+  }
+
+  .home__content {
+    text-align: initial;
+  }
+
+  .home__title {
+    margin-inline: 0;
+  }
+}
+
 /* For large devices */
