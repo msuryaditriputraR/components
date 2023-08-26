@@ -293,8 +293,18 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 300px) {
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .home__title {
+    font-size: 1.75rem;
+  }
+}
 
 /* For taller devices */
+
 
 /* For medium devices */
 
