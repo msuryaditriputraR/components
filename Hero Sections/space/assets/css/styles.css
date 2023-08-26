@@ -311,5 +311,24 @@ img {
 }
 
 /* For medium devices */
+@media screen and (min-width: 576px) {
+  .home__container {
+    grid-template-columns: 400px;
+    justify-content: center;
+  }
+
+  .nav__menu {
+    width: 60%;
+  }
+
+  .home__cloud-1 {
+    width: 100%;
+    left: 0;
+  }
+
+  .home__cloud-2 {
+    width: 80%;
+  }
+}
 
 /* For large devices */
