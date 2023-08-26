@@ -304,7 +304,11 @@ img {
 }
 
 /* For taller devices */
-
+@media screen and (min-width: 376px) and (min-height: 800px) {
+  .home__container {
+    padding-top: 10rem;
+  }
+}
 
 /* For medium devices */
 
