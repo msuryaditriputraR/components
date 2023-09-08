@@ -173,6 +173,16 @@ a {
 }
 
 /* Show icon */
+.show-icon .nav__burger {
+  opacity: 0;
+  transform: rotate(90deg);
+}
+
+.show-icon .nav__close {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
 
 
 /*=============== DROPDOWN ===============*/
