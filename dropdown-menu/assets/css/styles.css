@@ -194,7 +194,8 @@ a {
   transition: transform .4s;
 }
 
-.dropdown__link {
+.dropdown__link,
+.dropdown__sublink {
   padding: 1.25rem;
   padding-left: 2.5rem;
   color: var(--white-color);
@@ -206,23 +207,27 @@ a {
   transition: background-color .4s;
 }
 
-.dropdown__link i {
+.dropdown__link i,
+.dropdown__sublink i {
   font-size: 1.25rem;
   font-weight: initial;
 }
 
-.dropdown__link:hover {
+.dropdown__link:hover,
+.dropdown__sublink:hover {
   background-color: var(--black-color);
 }
 
-.dropdown__menu {
+.dropdown__menu,
+.dropdown__submenu {
   max-height: 0;
   overflow: hidden;
   transition: max-height .4s ease-out;
 }
 
 /* Show dropdown menu & submenu */
-.dropdown__item:hover .dropdown__menu {
+.dropdown__item:hover .dropdown__menu,
+.dropdown__subitem:hover>.dropdown__submenu {
   max-height: 1000px;
   transition: max-height .4s ease-in;
 }
@@ -233,7 +238,13 @@ a {
 }
 
 /*=============== DROPDOWN SUBMENU ===============*/
+.dropdown__add {
+  margin-left: auto;
+}
 
+.dropdown__sublink {
+  background-color: var(--black-color-lighten);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
