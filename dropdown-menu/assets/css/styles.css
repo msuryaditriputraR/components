@@ -244,6 +244,7 @@ a {
 
 .dropdown__sublink {
   background-color: var(--black-color-lighten);
+  padding-left: 3.5rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
