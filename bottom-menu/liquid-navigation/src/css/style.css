@@ -45,3 +45,50 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* ==================== NAVBAR  ===================== */
+.nav {
+  position: fixed;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  width: 328px;
+  height: 72px;
+  background-color: var(--container-color);
+  box-shadow: 0 8px 32px hsla(231, 44%, 45%, 0.2);
+  margin: 0 auto;
+  padding: 1.5rem 0.5rem;
+  border-radius: 0.65rem;
+  overflow: hidden;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__link i {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  z-index: 20;
+  transition: 0.3s;
+}
+
+.nav__name {
+  font-size: var(--tiny-font-size);
+  position: absolute;
+  font-weight: 500;
+  transform: translateY(45px);
+  color: var(--body-color);
+  z-index: 20;
+  transition: 0.4s;
+  opacity: 0;
+  pointer-events: none;
+}
