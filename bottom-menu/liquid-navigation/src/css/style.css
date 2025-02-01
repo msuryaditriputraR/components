@@ -124,3 +124,21 @@ section {
   text-align: center;
   padding-top: 1.5rem;
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .nav {
+    zoom: 0.8;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 968px) {
+  .container {
+    margin-inline: auto;
+  }
+  .nav {
+    zoom: 1.1;
+  }
+}
