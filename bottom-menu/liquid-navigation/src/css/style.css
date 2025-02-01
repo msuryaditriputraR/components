@@ -101,3 +101,14 @@ a {
   fill: var(--first-color);
   transition: 0.3s;
 }
+
+/* ACTIVE LINK */
+.active.nav__link i {
+  color: var(--body-color);
+}
+
+.active.nav__link .nav__name {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(25px);
+}
