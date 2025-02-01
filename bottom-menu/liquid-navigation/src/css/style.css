@@ -92,3 +92,12 @@ a {
   opacity: 0;
   pointer-events: none;
 }
+
+/* ==================== INDICATOR ===================== */
+.indicator {
+  position: absolute;
+  left: 5px;
+  bottom: 0;
+  fill: var(--first-color);
+  transition: 0.3s;
+}
