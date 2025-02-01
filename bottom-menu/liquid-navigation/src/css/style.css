@@ -46,6 +46,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 968px;
+  margin-inline: 1.5rem;
+}
+
 /* ==================== NAVBAR  ===================== */
 .nav {
   position: fixed;
@@ -111,4 +116,11 @@ a {
   opacity: 1;
   pointer-events: all;
   transform: translateY(25px);
+}
+
+/* ==================== MAIN ===================== */
+section {
+  height: 100vh;
+  text-align: center;
+  padding-top: 1.5rem;
 }
