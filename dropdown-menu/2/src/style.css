@@ -117,5 +117,14 @@ ul {
 }
 
 /* Rotate & hide icon */
+.show-dropdown .dropdown__close {
+  opacity: 1;
+  transform: rotate(-180deg);
+}
+
+.show-dropdown .dropdown__arrow {
+  opacity: 0;
+  transform: rotate(-180deg);
+}
 
 /* Show dropdown menu */
