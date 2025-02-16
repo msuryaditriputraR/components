@@ -128,3 +128,8 @@ ul {
 }
 
 /* Show dropdown menu */
+.show-dropdown .dropdown__menu {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: initial;
+}
